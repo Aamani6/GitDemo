@@ -20,7 +20,9 @@ public class TestSample1 {
 		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
 		
 		driver.get("https://www.facebook.com/");
-		
+		System.out.println("Practising with Git");
+		System.out.println("Hi");
+		System.out.println("How are you");
 	}
 
 }
